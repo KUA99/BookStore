@@ -1,0 +1,280 @@
+header {
+    display: flex;
+}
+
+.header-left {
+    width: 16%;
+}
+
+.header-right {
+    width: 84%;
+    background-color: #0094c8;
+    background-image: linear-gradient(to right, #0094c8, #00b8d8);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header-logo {
+    display: flex;
+    padding: 2rem 1rem;
+}
+
+.header-logo img {
+    width: 3.4rem;
+    height: 3.4rem;
+    margin-right: 0.5rem;
+}
+
+.header-logo h2 {
+    font-size: 2.4rem;
+    text-transform: lowercase;
+    align-items: center;
+    color: #888e95;
+    font-weight: 400;
+    line-height: 3.4rem;
+}
+
+.header-logo h2 span {
+    color: #525c65;
+    font-weight: 600;
+}
+
+.header-search {
+    position: relative;
+    padding-left: 1.6rem;
+    padding-top: 2.2rem;
+}
+
+.header-search input {
+    padding: 0.6rem 1.2rem;
+    font-size: 1.6rem;
+    border: 1px solid #e9ecef;
+    border-radius: 10rem;
+    outline: none;
+}
+
+.header-search i {
+    font-size: 1.4rem; 
+    position: absolute;
+    left: 21.4rem;
+    top: 3rem;
+    color: #919394;
+    cursor: pointer;
+}
+
+.header-user {
+    position: absolute;
+    top: 50%;
+    right: 1.5rem;
+    transform: translateY(-50%);
+}
+
+.header-user i {
+    margin-right: 0.8rem;
+    font-size: 2rem;
+    color: #bcecf5; 
+    font-weight: 300;
+}
+
+.header-user h2 {
+    display: inline-block;
+    font-size: 2rem;
+    color: #bcecf5;
+    font-weight: 300;
+}
+
+.content {
+    display: flex;
+    position: relative;
+}
+
+.content-left {
+    position: absolute;
+    width: 16%;
+    box-shadow: 1px 0px 20px rgb(0 0 0 / 8%);
+}
+
+.content-right {
+    position: absolute;
+    left: 16%;
+    width: 84%;
+    background-color: #f2f7f8;
+}
+
+.menu {
+    list-style-type: none;
+    padding-top: 2.6rem;
+}
+
+.menu .menu-item a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #acb4be;
+    padding: 1.4rem 3.5rem 1.4rem 1.5rem;
+}
+
+.menu .menu-item i {
+    margin-right: 1.6rem;
+    font-size: 1.8rem;
+    color: #a6b7bf;
+}
+
+.menu-item:hover {
+    border-left: 0.3rem solid #009efb;
+}
+
+.menu-item:hover i,
+.menu-item:hover a {
+    color: #009efb;
+}
+
+.item1 {
+    padding-left: 0.5rem;
+}
+
+.content-product h2 {
+    color: #009efb;
+    font-size: 2rem;
+    padding: 3rem 0 2rem 3rem;
+}
+
+.content-product table {
+    background-color: #fff;
+    margin: 0 2rem 2rem 2rem;
+}
+
+table th {
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 1.2rem;
+    color: #5466a3;
+    text-align: left;
+}
+
+table th:first-child {
+    width: 17rem;
+}
+
+table td {
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 1.2rem;
+    color: #597497;
+}
+
+input[type="submit"] {
+    color: #fff;
+    background-color: #009efb;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 1.2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #bcecf5;
+}
+
+.option a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.option a:first-child {
+    color: #009efb;
+    font-weight: 600;
+    padding-right: 0.6rem;
+}
+
+.option a:last-child {
+    color: red;
+    font-weight: 600;
+}
+
+.btn-add {
+    width: 14rem;
+    height: 3rem;
+    background-color: #009efb;
+    margin-right: 3rem;
+    margin-top: 3rem;
+}
+
+.btn-add a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 1.4rem;
+    padding: 1rem;
+    line-height: 1.4rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.product-title-add {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-book {
+    padding-left: 2rem;
+}
+
+.add-detail {
+    margin-bottom: 2rem;
+}
+
+.add-detail label {
+    color: #525c65;
+    font-size: 1.6rem;
+}
+
+.add-detail input {
+    width: 40rem;
+    padding: 0.6rem;
+    outline-color: #009efb;
+    margin-left: 8rem;
+}
+
+.add-detail:nth-child(1) input {
+    margin-left: 8rem;
+}
+
+.add-detail:nth-child(2) input {
+    margin-left: 7.4rem;
+}
+
+.add-detail:nth-child(3) input {
+    margin-left: 6rem;
+}
+
+.add-detail:nth-child(5) input {
+    margin-left: 11.6rem;
+}
+
+.add-detail:nth-child(6) input {
+    margin-left: 7rem;
+}
+
+.add-detail select {
+    margin-left: 7rem;
+    width: 40rem;
+    padding: 0.6rem;
+    outline-color: #009efb;
+}
+
+.add-detail:nth-child(9) select {
+    margin-left: 4.3rem;
+}
+
+.add-detail:nth-child(10) select {
+    margin-left: 8.6rem;
+}
+
+
+
+ 

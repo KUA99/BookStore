@@ -1,0 +1,78 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}    
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1.2rem;
+    margin-right: -1.2rem;
+}
+
+.col {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-5 {
+    width: 41.66667%;
+}
+
+.col-7 {
+    width: 58.33333%;
+}
+
+.col-4 {
+    width: 33.33333%;
+}
+
+.col-24 {
+    width: 20%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-8 {
+    width: 66.66667%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+

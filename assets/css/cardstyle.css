@@ -1,0 +1,29 @@
+.card__title {
+    color: #ffa64d;
+    font-size: 2.6rem;
+}
+
+form {
+    width: 70rem;
+    margin: 0 auto;
+}
+
+.cart__content {
+    width: 100%;
+}
+
+.cart__header th {
+    color: #ffa64d;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.card__product td {
+    font-size: 1.4rem;
+}
+
+.card__product td:last-child {
+    color: red;
+    text-transform: uppercase;
+    font-weight: 600;
+}
